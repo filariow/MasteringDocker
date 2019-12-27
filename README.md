@@ -5,7 +5,10 @@
 
 It is a practical session where we will practice the fine arts of Dockerfile creation, image building, and container running.
 
-Please install [Docker Engine](https://docs.docker.com/install/)/[Docker Desktop](https://www.docker.com/products/docker-desktop) before attending the event,
+
+## Tools best to have
+
+Before attending the event, please install [Docker Engine](https://docs.docker.com/install/)/[Docker Desktop](https://www.docker.com/products/docker-desktop) before attending the event,
 and pull some images using the following commands:
 
 ```
@@ -16,6 +19,9 @@ docker pull mongo
 docker pull mongo-express
 docker pull bash
 ```
+
+Also install [Visual Studio Code](https://code.visualstudio.com/) and the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
+
 
 ## When and where
 
