@@ -14,6 +14,7 @@ docker pull mcr.microsoft.com/dotnet/core/aspnet:3.1
 docker pull mcr.microsoft.com/dotnet/core/sdk:3.1
 docker pull mongo
 docker pull mongo-express
+docker pull bash
 ```
 
 ## When and where
