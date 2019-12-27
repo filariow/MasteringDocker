@@ -49,3 +49,9 @@ Important keywords:
 - ARG
 
 For more details you can refer to [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/).
+
+
+## Best Practices
+
+https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/#run
+
