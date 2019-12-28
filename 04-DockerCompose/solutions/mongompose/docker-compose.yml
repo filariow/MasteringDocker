@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mdb: # service name
+    image: "mongo:latest"
+    volumes:
+      - mongo_data:/data/db
+
+  mdb-exp:
+    image: "mongo-express:latest"
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mdb # the name of the mongodb container
+    ports:
+      - "8081:8081"
+
+volumes:
+  mongo_data:
