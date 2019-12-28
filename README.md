@@ -6,6 +6,11 @@
 It is a practical session where we will practice the fine arts of Dockerfile creation, image building, and container running.
 
 
+## When and where
+
+The Meetup is scheduled for the 20th of January 2020 in Rome at [LUISS EnLabs](https://www.luissenlabs.com/), Termini station.
+
+
 ## Tools best to have
 
 Before attending the event, please install [Docker Engine](https://docs.docker.com/install/)/[Docker Desktop](https://www.docker.com/products/docker-desktop) before attending the event,
@@ -23,6 +28,22 @@ docker pull bash
 Also install [Visual Studio Code](https://code.visualstudio.com/) and the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
 
 
-## When and where
+## Schedule
 
-The Meetup is scheduled for the 20th of January 2020 in Rome at [LUISS EnLabs](https://www.luissenlabs.com/), Termini station.
+1. Intro                                        [10 min]
+   1. What are we going to do
+   2. Checks of needed tools: WiFi, Softwares, etc.
+2. Fundamental                                  [10 min]
+   1. Containers
+   2. Images 
+   3. Registries 
+3. Playing with Docker CLI                      [20 min]
+   1. image: pull, list, inspect, remove, tag
+   2. container: run, stop, start, remove
+   3. cleanup the system: prune images and containers
+4. Image Building                               [30 min]
+   1. Demos [10 min]
+   2. Hands On [20 min]
+5. Docker Compose                               [10 min]
+6. Develop in Container                         [30 min]
+7. Q&A                                          [10 min]
