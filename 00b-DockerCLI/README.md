@@ -41,3 +41,12 @@ I invite you to monitor the space it uses and remove dangling images and stopped
 docker container prune
 docker image prune
 ```
+Another command to delete all containers including its volumes:
+
+```
+docker rm -vf $(docker ps -a -q)
+```
+To delete all the images:
+```
+docker rmi -f $(docker images -a -q)
+```

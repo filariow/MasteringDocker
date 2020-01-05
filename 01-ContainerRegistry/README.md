@@ -48,3 +48,38 @@ Options:
       --disable-content-trust   Skip image verification (default true)
   -q, --quiet                   Suppress verbose output
 ```
+
+## docker push
+### To push a docker image in Docker Hub
+
+```
+TAG_VERSION=1.0
+```
+Build image
+```
+docker build -t <hub-user>/<repo-name>:'${TAG_VERSION}' .
+```
+
+Push image in Docker Hub
+```
+docker push <hub-user>/<repo-name>:'${TAG_VERSION}'
+```
+
+
+### To push a docker image in local registry
+
+```
+DOCKER_REGISTRY_URL=...
+DOCKER_REGISTRY_PORT=...
+TAG_VERSION=1.0
+```
+Build the same image with two tag
+```
+docker build -t ${DOCKER_REGISTRY_URL}:${DOCKER_REGISTRY_PORT}/<repo-name>:latest -t ${DOCKER_REGISTRY_URL}:${DOCKER_REGISTRY_PORT}/<repo-name>:'${TAG_VERSION}' .
+```
+
+Push image in a docker registry
+```
+docker push ${DOCKER_REGISTRY_URL}:${DOCKER_REGISTRY_PORT}/<repo-name>:'${TAG_VERSION}'
+docker push ${DOCKER_REGISTRY_URL}:${DOCKER_REGISTRY_PORT}/<repo-name>:latest
+```
