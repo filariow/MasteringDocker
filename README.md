@@ -13,8 +13,13 @@ The Meetup is scheduled for the 20th of January 2020 in Rome at [LUISS EnLabs](h
 
 ## Tools best to have
 
-Before attending the event, please install [Docker Engine](https://docs.docker.com/install/)/[Docker Desktop](https://www.docker.com/products/docker-desktop) before attending the event,
-and pull some images using the following commands:
+Before attending the event, please install the following tools:
+- [Docker Engine](https://docs.docker.com/install/)/[Docker Desktop](https://www.docker.com/products/docker-desktop).
+- Git/[Git for Windows](https://gitforwindows.org/)
+- [Visual Studio Code](https://code.visualstudio.com/) and its [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
+
+
+Also pull some Docker images using the following commands:
 
 ```
 docker pull golang:1.13
@@ -24,9 +29,6 @@ docker pull mongo
 docker pull mongo-express
 docker pull bash
 ```
-
-Also install [Visual Studio Code](https://code.visualstudio.com/) and the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
-
 
 ## Schedule
 
