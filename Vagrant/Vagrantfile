@@ -1,0 +1,20 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+Vagrant.configure(2) do |config|
+
+	config.vm.box = "ubuntu/trusty64"
+
+	#config.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+	config.vm.network "private_network", ip: "192.168.33.10"
+
+
+	config.vm.provider "virtualbox" do |vb|
+			vb.name = "vagrant-docker"
+
+	end
+
+
+	config.vm.provision :shell, :path => "provisioning/setup.sh"
+end
