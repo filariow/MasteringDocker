@@ -14,3 +14,12 @@ Cons:
 ## Devcontainer in VS Code with Remote - Container
 
 In the following exercises we will use [Visual Studio Code](https://code.visualstudio.com/) and the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
+
+---
+
+# Next
+
+Exercises:
+  - [My first devcontainer project](./Ex-01.md)
+  - [Simple devcontainer with Docker Compose](./Ex-02.md)
+  - [Complex devcontainer with Docker Compose](./Ex-03.md)
