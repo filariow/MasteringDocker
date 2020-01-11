@@ -13,11 +13,12 @@ export DEBIAN_FRONTEND=noninteractive
 locale-gen en_US.UTF-8
 sudo dpkg-reconfigure locales
 
-chmod +x /vagrant/provisioning/docker-install.sh /vagrant/provisioning/pull-image.sh
+chmod +x /vagrant/provisioning/docker-install.sh /vagrant/provisioning/pull-image.sh /vagrant/provisioning/zsh-install.sh
 
 # Provisioning scripts
 echo "Runnig provisioning scripts ..."
 
+/vagrant/provisioning/zsh-install.sh
 /vagrant/provisioning/docker-install.sh
 /vagrant/provisioning/pull-image.sh
 
