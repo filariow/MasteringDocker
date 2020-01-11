@@ -18,6 +18,7 @@ chmod +x /vagrant/provisioning/docker-install.sh /vagrant/provisioning/pull-imag
 # Provisioning scripts
 echo "Runnig provisioning scripts ..."
 
+/vagrant/provisioning/monitor-resolution.sh
 /vagrant/provisioning/zsh-install.sh
 /vagrant/provisioning/docker-install.sh
 /vagrant/provisioning/pull-image.sh
@@ -28,3 +29,5 @@ apt-get autoremove -y
 apt-get clean
 
 echo "All done!"
+echo "Wait for the machine to reboot and try to connect"
+reboot
