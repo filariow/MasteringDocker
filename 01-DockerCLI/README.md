@@ -50,3 +50,9 @@ To delete all the images:
 ```
 docker rmi -f $(docker images -a -q)
 ```
+
+--- 
+
+# Next Section
+
+The next section presents the main commands for [Docker Registry](../01-ContainerRegistry)
