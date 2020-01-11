@@ -50,4 +50,6 @@ docker pull bash
 
 ***
 
-Let start the journey with a [Summary of previously explained fundamentals](https://github.com/FrancescoIlario/MasteringDocker/tree/master/00-Previously#summary-of-previously-explained-fundamentals)
+# Let Start
+
+Let start the journey with a [Summary of previously explained fundamentals](00-Previously)
