@@ -83,3 +83,11 @@ Push image in a docker registry
 docker push ${DOCKER_REGISTRY_URL}:${DOCKER_REGISTRY_PORT}/<repo-name>:'${TAG_VERSION}'
 docker push ${DOCKER_REGISTRY_URL}:${DOCKER_REGISTRY_PORT}/<repo-name>:latest
 ```
+
+
+---
+
+# Next 
+
+- Exercise 1: [Log-in into Docker Hub](Ex-01.md) from docker cli 
+- Next section: some practice with the principal [Docker CLI commands](../02-RunContainerRun)
