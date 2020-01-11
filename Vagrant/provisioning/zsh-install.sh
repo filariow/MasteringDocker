@@ -1,25 +1,26 @@
 # vim
-sudo apt-get install -y vim
+apt-get install -y vim
 # less
-sudo apt-get install -y less
+apt-get install -y less
 # Oh My ZSH
-sudo apt-get install -y git zsh
+apt-get install -y git zsh
 mkdir -p /tmp/zsh
 cd /tmp/zsh
 # Added zsh shell.
-sudo apt-get install zsh
+apt-get install zsh
 wget --no-check-certificate https://github.com/ohmyzsh/ohmyzsh/raw/master/tools/install.sh
 mkdir -p /opt
 ZSH=/opt/oh-my-zsh sh install.sh
 chsh -s /bin/zsh vagrant
+sed 's/robbyrussell/agnoster/' -i /root/.zshrc
 # zshers group
 groupadd zshers
 usermod -aG zshers vagrant
 usermod -aG zshers root
-sudo chown -R root:zshers /opt/oh-my-zsh
+chown -R root:zshers /opt/oh-my-zsh
 # Enrich the zshrc conf file
-sudo cp /root/.zshrc /home/vagrant/.zshrc
-sudo chown -R vagrant:vagrant /home/vagrant/.zshrc
+cp /root/.zshrc /home/vagrant/.zshrc
+chown -R vagrant:vagrant /home/vagrant/.zshrc
 echo 'alias ff="find . -iname "' | tee -a /home/vagrant/.zshrc
 echo 'alias ls="ls -h --color=auto "' | tee -a /home/vagrant/.zshrc 
 echo 'alias ll="ls -l "'  | tee -a  /home/vagrant/.zshrc
