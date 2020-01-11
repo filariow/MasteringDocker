@@ -1,17 +1,15 @@
-# Mastering Docker
-
-
-## What is going to happen
+# What is going to happen
 
 It is a practical session where we will practice the fine arts of Dockerfile creation, image building, and container running.
+Furthermore, we will create and deploy container-based environments using Docker-Compose.
 
 
-## When and where
+# When and where
 
 The Meetup is scheduled for the 20th of January 2020 in Rome at [LUISS EnLabs](https://www.luissenlabs.com/), Termini station.
 
 
-## Tools best to have
+# Tools best to have
 
 Before attending the event, please install the following tools:
 - [Docker Engine](https://docs.docker.com/install/)/[Docker Desktop](https://www.docker.com/products/docker-desktop).
@@ -30,7 +28,7 @@ docker pull mongo-express
 docker pull bash
 ```
 
-## Schedule
+# Schedule
 
 1. Intro                                        [10 min]
    1. What are we going to do
