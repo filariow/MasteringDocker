@@ -22,6 +22,7 @@ echo "Runnig provisioning scripts ..."
 /vagrant/provisioning/zsh-install.sh
 /vagrant/provisioning/docker-install.sh
 /vagrant/provisioning/pull-image.sh
+/vagrant/provisioning/setup-mcpi.sh
 
 # Clean
 echo "Cleaning up ..."
