@@ -47,3 +47,7 @@ docker pull bash
 5. Docker Compose                               [10 min]
 6. Develop in Container                         [30 min]
 7. Q&A                                          [10 min]
+
+***
+
+Let start the journey with a [Summary of previously explained fundamentals](https://github.com/FrancescoIlario/MasteringDocker/tree/master/00-Previously#summary-of-previously-explained-fundamentals)
