@@ -19,3 +19,10 @@ Using Compose is basically a three-step process:
 
 - [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
 - [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
+
+---
+
+# Next Section
+
+- Exercise 01: [Running multiple containers](./Ex-01.md)
+- Next section: introduction to [Development in Containers](../05-DevContainer)
