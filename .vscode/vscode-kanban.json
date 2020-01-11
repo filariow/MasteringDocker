@@ -1,0 +1,24 @@
+{
+  "done": [],
+  "in-progress": [],
+  "testing": [],
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Francesco Ilario"
+      },
+      "creation_time": "2020-01-11T15:41:33.315Z",
+      "description": {
+        "content": "Explain how to configure the vbox machine network in order to share the same host sub-network.\n",
+        "mime": "text/markdown"
+      },
+      "details": {
+        "content": "Explain how to configure the vbox machine network in order to share the same host sub-network.\n\ne.g. \n\tHost address: \t192.168.2.105\n\tVM address:\t\t192.168.2.106",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "references": [],
+      "title": "Virtual Machine and Registry Pi"
+    }
+  ]
+}
