@@ -1,5 +1,19 @@
 {
-  "done": [],
+  "done": [
+    {
+      "assignedTo": {
+        "name": "Francesco Ilario"
+      },
+      "creation_time": "2020-01-12T14:09:39.044Z",
+      "description": {
+        "content": "Add a section with the command to pull from the raspberry and tag the images with the appropriate names",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "references": [],
+      "title": "Pulling from Raspberry section"
+    }
+  ],
   "in-progress": [],
   "testing": [],
   "todo": [
@@ -19,19 +33,6 @@
       "id": "1",
       "references": [],
       "title": "Virtual Machine and Registry Pi"
-    },
-    {
-      "assignedTo": {
-        "name": "Francesco Ilario"
-      },
-      "creation_time": "2020-01-12T14:09:39.044Z",
-      "description": {
-        "content": "Add a section with the command to pull from the raspberry and tag the images with the appropriate names",
-        "mime": "text/markdown"
-      },
-      "id": "2",
-      "references": [],
-      "title": "Pulling from Raspberry section"
     }
   ]
 }
