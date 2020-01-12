@@ -20,6 +20,8 @@ In the following exercises we will use [Visual Studio Code](https://code.visuals
 # Next
 
 Exercises:
-  - [My first devcontainer project](./Ex-01.md)
-  - [Simple devcontainer with Docker Compose](./Ex-02.md)
-  - [Complex devcontainer with Docker Compose](./Ex-03.md)
+- [My first devcontainer project](./Ex-01.md)
+- [Simple devcontainer with Docker Compose](./Ex-02.md)
+- [Complex devcontainer with Docker Compose](./Ex-03.md)
+Section:
+- [The End](../07-End/README.md)
