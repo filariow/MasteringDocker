@@ -212,4 +212,4 @@ Options:
 # Next
 
 - Exercise 01: [Fun with images and containers](./Ex-01.md)
-- Next section: introduction to [Docker Images Creation](../03-BuildingImages)
+- Next section: introduction to [Docker Images Creation](../04-BuildingImages)

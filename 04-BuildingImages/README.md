@@ -64,4 +64,4 @@ https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practi
   - [My first Docker image](./Ex-02.md) 
   - [A more complex image](./Ex-03.md) 
   - [A multi-stage image](./Ex-04.md) 
-- Next section: [Docker-Compose in action](../04-DockerCompose)
+- Next section: [Docker-Compose in action](../05-DockerCompose)
