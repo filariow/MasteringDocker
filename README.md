@@ -48,7 +48,15 @@ docker pull bash
 6. Develop in Container                         [30 min]
 7. Q&A                                          [10 min]
 
+
+# Contributors
+
+@AlessandroLoManto
+@Akelitz
+
+
 ***
+
 
 # Let Start
 
